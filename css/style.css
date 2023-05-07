@@ -1,0 +1,282 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f7;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box #fff;
+    box-shadow: 5px 5px 5px 5px #a1a6b3;
+    margin: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-brand {
+    color: #76777c;
+    font-weight: bold;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.star {
+    padding: 0px;
+}
+
+.star li {
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    color: orange;
+}
+
+.checked {
+    color: orange;
+}
+
+.reting-section {
+    display: flex;
+    justify-content: center;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-button {
+    width: 128px;
+    background-color: rgb(237, 186, 57);
+    border: 1px solid rgb(232, 155, 10);
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.cart-button:hover {
+    background-color: rgb(232, 155, 10);
+}
+
+.price-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.discount-price {
+    color: orange;
+    font-size: 22px;
+}
+
+.regular-price {
+    color: #76777c;
+    text-decoration: line-through;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80px;
+    height: 70px;
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box input {
+    /* width: 660px; */
+    height: 46px;
+    padding: 20px;
+    background: #fff;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 2px;
+    width: 90%;
+}
+
+.input-box button {
+    width: 68px;
+    height: 43px;
+    border: none;
+    background: #fff;
+    background-color: #3623e2;
+    border-radius: 2px;
+    color: #fff;
+
+}
+
+.cart-box {
+    width: 100px;
+    height: 43px;
+}
+
+.cart-icon {
+    font-size: 33px;
+}
+
+.cart-counter {
+    margin-top: 8px;
+    background: orange;
+}
+
+/* Cart  */
+.single-product-item {
+    width: 100%;
+}
+
+.cart-item-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.cart-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-item-delete {
+    margin-top: 15px;
+}
+
+.cart-item-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-item-image img {
+    width: 80%;
+}
+
+.cart-item-quantity-input {
+    max-width: 30%;
+
+}
+
+.order-summry-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order-summry-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.brought-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: inline-block
+}
+
+.footer {
+    background-color:#FFC107;
+}
+.footer:hover {
+    background-color: #EDBA39;
+}
+.customars-needs a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.customars-needs a:hover {
+    text-decoration: underline;
+}
+
+.customars-needs li {
+    list-style: none;
+
+}
+
+.customars-eran a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.customars-eran a:hover {
+    text-decoration: underline;
+}
+
+.customars-eran li {
+    list-style: none;
+
+}
+
+.delites a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.delites a:hover {
+    text-decoration: underline;
+}
+
+.delites li {
+    list-style: none;
+}
+
+.QR-SCENER{
+    display: flex;
+    justify-content: space-between;
+    flex: row;
+    width: 240px;
+    height: 105px;
+   float: left;
+}
+
+.QR-scenners-img img {
+    width: 100%;
+    height: 100%;
+}
+.free-Shipping-img img {
+    width: 100%;
+    height: 100%;
+}
+.tittle {
+    margin-inline-start: 23px;
+    margin-top: -20px;
+    float: right;
+    color: #fff;
+}
