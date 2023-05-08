@@ -19,13 +19,15 @@ let totalProduct = 0
 
 function search() {
     let searchInput = document.getElementById('input-item').value
-    url = "https://dummyjson.com/products"
-    if (searchInput.length > 0) {
+    url = ''
+    if (searchInput.length >= 3) {
         url = `https://dummyjson.com/products/search?q=${searchInput}`
-    } else {
+    } else if (searchInput.length == 0) {
         url = "https://dummyjson.com/products"
     }
-    showAllProduct(url)
+    if (url) {
+        showAllProduct(url)
+    }
 }
 
 function showAllProduct(url) {
@@ -129,6 +131,7 @@ function showAllCatagories() {
         .then((data) => {
             let allCetagoryHTML = ""
             for (let index = 0; index < data.length; index++) {
+                data[index] = data[index].charAt(0).toUpperCase() + data[index].slice(1)
                 allCetagoryHTML += `<button type="button" class="btn btn-outline-warning m-1"  data-id="${data[index]}" onclick="loadCetagoryProduct(this)">${data[index]} </button>`
 
             }
