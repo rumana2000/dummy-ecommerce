@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="row mt-5">
                     <div class="card">
-                        <div class="row mt-3">
+                        <div class="row mt-3" id="cart-info">
                             <div class="col-md-8" id="showCartItem">
         
                             </div>
@@ -76,6 +76,13 @@
                             <div class="total-price">
         
                             </div>
+                        </div>
+
+                        <div class="row mt-3 d-none" id="empty-cart">
+                            <div class="empty-cart">
+                                <img src="../img/empty.png" float="left" height="100px" width="200px" text-items="center">
+                            </div>
+                            <p class="text-center">Your cart is empty!</p>
                         </div>
                     </div>
                 </div>
@@ -114,7 +121,7 @@
                         <div class="free-Shipping-img ms-2">
                             <img src="../img/free-shipping.png" alt="" />
                             <div class="tittle">
-                                <span>Free-Shipping</span>
+                                <span>Free-Shipping</span><br>
                                 <span>Happy-Shopping</span>
                          </div>
                         </div>
