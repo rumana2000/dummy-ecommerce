@@ -8,7 +8,7 @@ A demo ecommerce application using vanilla js
 - Vanila JavaScript
 
 ### Description
-In this project, I aimed to implement basic fundamental e-commerce functionality, including a product landing page, category-based product loading, search capabilities, pagination, shopping cart, and more. To achieve this, I leveraged the 'dummyjson.com' API for seamless integration.
+In this project, I aimed to implement basic fundamental e-commerce functionality, including a product landing page, category-based product loading, search capabilities, pagination, shopping cart, and more. To achieve this, I leveraged the "https://dummyjson.com" API for seamless integration.
 
 ### Functionality
 - Poduct landing page
