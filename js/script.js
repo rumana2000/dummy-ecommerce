@@ -80,7 +80,6 @@ function showAllProduct(url) {
                 </div>
                 <p class="${stockInfo.stockTxtColor} text-center">${stockInfo.msg} <i class="bi bi-check-circle"></i></p>
                 <div class="reting-section">
-                ${element.rating}
                     <ul class="star">
                     ${ratingDom}
                     </ul>
