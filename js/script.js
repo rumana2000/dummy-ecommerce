@@ -14,7 +14,6 @@ let totalProduct = 0
 
 
 
-
 function search() {
     let searchInput = document.getElementById('input-item').value
     url = ''
@@ -125,9 +124,10 @@ function loadPaginationProduct(e) {
 }
 
 function showAllCatagories() {
-    fetch(`${API_BASE_URL}/products/categories`)
+    fetch(`${API_BASE_URL}/products/category-list`)
         .then((response) => response.json())
         .then((data) => {
+            // console.log(categoryData, "hi");
             let allCetagoryHTML = ""
             data.forEach(function (element) {
                 let categoryName = element.charAt(0).toUpperCase() + element.slice(1)
